@@ -1,2 +1,2 @@
-# casestudiesbyvishwa
-This are the few case studies i want to build, for personal portfolio. This include MySQL, Python etc..
+# case studies
+These are the few case studies I want to solve, source 8weekssqlchallenge by Dany ma.
