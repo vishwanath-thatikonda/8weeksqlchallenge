@@ -21,22 +21,6 @@ The Tables in the pizza_runners schema are:
 
 You can find the schema diagram here [Schema Diagram](https://dbdiagram.io/d/Pizza-Runner-5f3e085ccf48a141ff558487?utm_source=dbdiagram_embed&utm_medium=bottom_open)
 
+The customer_orders looks like this:
 
-**The schema is present in pizzarunnerschema.sql, and we are cleaning the table and null values.**
-
-update customer_orders
-set exclusions = null
-where exclusions = 'null' or exclusions = '';
-
-update customer_orders
-set extras = null
-where extras = 'null' or extras = '';
-
-update runner_orders
-set pickup_time = null,distance = null,duration = null
-where pickup_time = 'null';
-
-update runner_orders
-set cancellation = null
-where cancellation = 'null' or cancellation = '';
-
+![Screenshot 2025-05-22 133516](https://github.com/user-attachments/assets/ee103597-1c16-4df9-8297-2170cb5b6cb5)
