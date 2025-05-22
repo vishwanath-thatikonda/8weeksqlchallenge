@@ -11,9 +11,9 @@ or follow the pizzarunnersschema.sql file.
 ## **These case study has LOTS of questions - they are broken up by area of focus including:**
 
 1. [Pizza Metrics](https://github.com/vishwanath-thatikonda/8weeksqlchallenge/blob/main/pizzarunner/pizzametrics.sql)
-2. Runner and Customer Experience
-3. Ingredient Optimisation
-4. Pricing and Ratings
+2. [Runner and Customer Experience](https://github.com/vishwanath-thatikonda/8weeksqlchallenge/blob/main/pizzarunner/RunnerAndCustomerExperience.sql)
+3. Ingredient Optimisation (Under Process)
+4. [Pricing and Ratings](https://github.com/vishwanath-thatikonda/8weeksqlchallenge/blob/main/pizzarunner/PricingAndRating.sql)
 
 ## **The Tables in the pizza_runners schema are:**
 * customer_orders
