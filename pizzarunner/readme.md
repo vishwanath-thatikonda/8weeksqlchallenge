@@ -19,7 +19,8 @@ The Tables in the pizza_runners schema are:
 * pizza_recipes
 * pizza_toppings
 
-You can find the schema diagram here [schema diagram](![image](https://github.com/user-attachments/assets/b01d0bbf-6c9a-4364-be87-8fc402b37d17)
+You can find the schema diagram:
+![image](https://github.com/user-attachments/assets/f6e82346-5b55-4b63-91f4-5909b7082433)
 
 
 The schema is present in pizzarunnerschema.sql, and we are cleaning the table and null values.
