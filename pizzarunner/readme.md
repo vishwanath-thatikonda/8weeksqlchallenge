@@ -19,11 +19,10 @@ The Tables in the pizza_runners schema are:
 * pizza_recipes
 * pizza_toppings
 
-You can find the schema diagram:
-![image](https://github.com/user-attachments/assets/f6e82346-5b55-4b63-91f4-5909b7082433)
+You can find the schema diagram here [Schema Diagram](https://dbdiagram.io/d/Pizza-Runner-5f3e085ccf48a141ff558487?utm_source=dbdiagram_embed&utm_medium=bottom_open)
 
 
-The schema is present in pizzarunnerschema.sql, and we are cleaning the table and null values.
+**The schema is present in pizzarunnerschema.sql, and we are cleaning the table and null values.**
 
 update customer_orders
 set exclusions = null
