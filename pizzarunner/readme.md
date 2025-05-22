@@ -27,7 +27,7 @@ or follow the pizzarunnersschema.sql file.
 
 ![Screenshot 2025-05-22 133516](https://github.com/user-attachments/assets/ee103597-1c16-4df9-8297-2170cb5b6cb5)
 
-### runenrs_orders:
+### runner_orders:
 
 ![Screenshot 2025-05-22 144244](https://github.com/user-attachments/assets/4ad549c2-0e9a-4faa-a30c-da4b547386ee)
 
