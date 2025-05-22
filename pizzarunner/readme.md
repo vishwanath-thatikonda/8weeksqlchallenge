@@ -1,20 +1,21 @@
-**Case Study of Pizza Runner**
+# **Case Study of Pizza Runner**
+
+You can find these cases studies in [8weekSQLchallenge](https://8weeksqlchallenge.com/)
+
+The schema diagram: [Entity Relationship Diagram](https://dbdiagram.io/d/Pizza-Runner-5f3e085ccf48a141ff558487?utm_source=dbdiagram_embed&utm_medium=bottom_open)
+
+You can get the schema design from [Database Design](https://www.db-fiddle.com/f/7VcQKQwsS3CTkGRFG7vu98/65) 
+or follow the pizzarunnersschema.sql file.
+
                                                 
-These case study has LOTS of questions - they are broken up by area of focus including:
+## **These case study has LOTS of questions - they are broken up by area of focus including:**
 
 1. Pizza Metrics
 2. Runner and Customer Experience
 3. Ingredient Optimisation
 4. Pricing and Ratings
 
-You can find these cases studies in [8weekSQLchallenge](https://8weeksqlchallenge.com/)
-
-You can find the schema diagram here [Entity Relationship Diagram](https://dbdiagram.io/d/Pizza-Runner-5f3e085ccf48a141ff558487?utm_source=dbdiagram_embed&utm_medium=bottom_open)
-
-You can get the schema design from [Database Design](https://www.db-fiddle.com/f/7VcQKQwsS3CTkGRFG7vu98/65) 
-or follow the pizzarunnersschema.sql file.
-
-The Tables in the pizza_runners schema are:
+## **The Tables in the pizza_runners schema are:**
 * customer_orders
 * runner_orders
 * runners
