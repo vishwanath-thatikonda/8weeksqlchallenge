@@ -1,4 +1,28 @@
- -- The schema is present in pizzarunnerschema.sql and we cleaning the table and null values
+
+**Case Study of Pizza Runner**
+                                                
+-- This case study has LOTS of questions - they are broken up by area of focus including:
+
+-- Pizza Metrics
+-- Runner and Customer Experience
+-- Ingredient Optimisation
+-- Pricing and Ratings
+-- Bonus DML Challenges (DML = Data Manipulation Language)
+
+You can find these cases studies in [8weekSQLchallenge](https://8weeksqlchallenge.com/)
+
+The Tables in the pizza_runners schema are:
+* customer_orders
+* runner_orders
+* runners
+* pizza_names
+* pizza_recipes
+* pizza_toppings
+
+You can find the schema diagram here [schema diagram](![image](https://github.com/user-attachments/assets/b01d0bbf-6c9a-4364-be87-8fc402b37d17)
+
+
+The schema is present in pizzarunnerschema.sql, and we are cleaning the table and null values.
 
 update customer_orders
 set exclusions = null
@@ -15,5 +39,4 @@ where pickup_time = 'null';
 update runner_orders
 set cancellation = null
 where cancellation = 'null' or cancellation = '';
-
 
