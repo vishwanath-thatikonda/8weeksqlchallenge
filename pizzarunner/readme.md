@@ -46,7 +46,7 @@ pizza_toppings table:
 
 ![Screenshot 2025-05-22 144553](https://github.com/user-attachments/assets/cd92f14c-df43-442e-8634-987acb30599b)
 
-**1.Pizza Metrics**
+**1.Pizza Metrics**/
 1.How many pizzas were ordered?
 select count(order_id) as total_pizza_orders from customer_orders;
 
