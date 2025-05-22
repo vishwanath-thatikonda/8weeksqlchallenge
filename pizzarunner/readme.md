@@ -1,13 +1,13 @@
 
-**Case Study of Pizza Runner**
+                                                           **Case Study of Pizza Runner**
                                                 
--- This case study has LOTS of questions - they are broken up by area of focus including:
+This case study has LOTS of questions - they are broken up by area of focus including:
 
--- Pizza Metrics
--- Runner and Customer Experience
--- Ingredient Optimisation
--- Pricing and Ratings
--- Bonus DML Challenges (DML = Data Manipulation Language)
+1.Pizza Metrics
+2.Runner and Customer Experience
+3.Ingredient Optimisation
+4.Pricing and Ratings
+5.Bonus DML Challenges (DML = Data Manipulation Language)
 
 You can find these cases studies in [8weekSQLchallenge](https://8weeksqlchallenge.com/)
 
