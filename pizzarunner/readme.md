@@ -23,27 +23,27 @@ or follow the pizzarunnersschema.sql file.
 * pizza_recipes
 * pizza_toppings
 
-The customer_orders looks like this:
+### The customer_orders looks like this:
 
 ![Screenshot 2025-05-22 133516](https://github.com/user-attachments/assets/ee103597-1c16-4df9-8297-2170cb5b6cb5)
 
-runenrs_orders table:
+### runenrs_orders table:
 
 ![Screenshot 2025-05-22 144244](https://github.com/user-attachments/assets/4ad549c2-0e9a-4faa-a30c-da4b547386ee)
 
-runners table:
+### runners table:
 
 ![Screenshot 2025-05-22 144326](https://github.com/user-attachments/assets/a739c882-7056-42b3-ab49-7060bd08e80c)
 
-pizza_names table
+### pizza_names table
 
 ![Screenshot 2025-05-22 144405](https://github.com/user-attachments/assets/dd67e039-3f45-4e06-b87b-e95d877ec06e)
 
-pizza_recipes table:
+### pizza_recipes table:
 
 ![Screenshot 2025-05-22 144443](https://github.com/user-attachments/assets/0224314b-5488-48ea-ad5e-d94ce4334771)
 
-pizza_toppings table:
+### pizza_toppings table:
 
 ![Screenshot 2025-05-22 144553](https://github.com/user-attachments/assets/cd92f14c-df43-442e-8634-987acb30599b)
 
