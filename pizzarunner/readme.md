@@ -33,7 +33,8 @@ or follow the pizzarunnersschema.sql file.
 
 ### runners:
 
-![Screenshot 2025-05-22 144326](https://github.com/user-attachments/assets/a739c882-7056-42b3-ab49-7060bd08e80c)
+![Screenshot 2025-05-22 151354](https://github.com/user-attachments/assets/98bcbf24-1c06-41d5-bdb1-4fc8a2a3278b)
+
 
 ### pizza_names:
 
