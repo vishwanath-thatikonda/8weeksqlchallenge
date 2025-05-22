@@ -1,5 +1,4 @@
-
-                                                           Case Study of Pizza Runner
+**Case Study of Pizza Runner**
                                                 
 This case study has LOTS of questions - they are broken up by area of focus including:
 
@@ -47,6 +46,18 @@ pizza_toppings table:
 
 ![Screenshot 2025-05-22 144553](https://github.com/user-attachments/assets/cd92f14c-df43-442e-8634-987acb30599b)
 
+**1.Pizza Metrics**
+1.How many pizzas were ordered?
+select count(order_id) as total_pizza_orders from customer_orders;
+
+![Screenshot 2025-05-22 145454](https://github.com/user-attachments/assets/ae92351b-eb4f-49bc-a673-c8a237810671)
+
+2.How many unique customer orders were made?
+select count(distinct order_id) as unique_customer_orders from customer_orders;
+
+![Screenshot 2025-05-22 145551](https://github.com/user-attachments/assets/eabb58ca-c48e-460c-a7fc-2f5e74175b3c)
+
+   
 
 
 
