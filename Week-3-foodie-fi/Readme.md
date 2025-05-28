@@ -8,6 +8,20 @@ customers unlimited on-demand access to exclusive food videos from around the wo
 
 Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. 
 This case study focuses on using subscription style digital data to answer important business questions.\
+<hr>
 
 [Entity Relationship Diagram](https://8weeksqlchallenge.com/images/case-study-3-erd.png)
+
+## Case Study Questions
+This case study is split into an initial data understanding question before diving straight into data analysis questions before finishing with 1 single extension challenge.
+1. Customer Journey
+2. Data Analysis Questions
+3. Challenge Payment Question
+<hr>
+
+## Case Study Solutions:
+### A. Data Analysis Questions
+1.How many customers has Foodie-Fi ever had?\
+
+
 
