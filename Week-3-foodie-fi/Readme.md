@@ -93,7 +93,7 @@ Output Table :
 
 |customer_count|churned_percentage|
 |---|---|
-|307	|30.7|
+|307	|30.7|  
 
 5. How many customers have churned straight after their initial free trial - what percentage is this rounded to the nearest whole number?
 
@@ -112,4 +112,60 @@ Output Table :
 
 6. What is the number and percentage of customer plans after their initial free trial?
 ```
+select plan_id,plan_name,count(cnt) as plan_count,
+round(count(cnt) / (select count(distinct customer_id) from subscriptions) * 100,2) as percentage
+from (select customer_id,p.*,start_date,row_number() over(partition by customer_id) as cnt 
+from subscriptions s join plans p
+on s.plan_id = p.plan_id) x
+where x.cnt = 2
+group by plan_id,plan_name
+order by plan_count desc;
 ```
+|plan_id | plan_name | plan_count | percentage|
+|---|---|---|---|
+|1	|basic monthly|	546	|54.60|
+|2	|pro monthly|	325	|32.50|
+|4	|churn	|92	|9.20|
+|3	|pro annual	|37	|3.70|
+
+7. What is the customer count and percentage breakdown of all 5 plan_name values at 2020-12-31
+
+```
+with cte as 
+(select customer_id,p.*,start_date,row_number() over(partition by customer_id) as cnt 
+from subscriptions s join plans p
+on s.plan_id = p.plan_id)
+select plan_id,plan_name,count(cnt) as plan_count,
+round(count(cnt) / (select count(distinct customer_id) from subscriptions) * 100,2) as percentage
+from cte
+where start_date <= '2020-12-31'
+group by plan_id,plan_name
+order by plan_count desc;
+```
+|plan_id | plan_name | plan_count | percentage|
+|---|---|---|---|
+|0|	trial|	1000	|100.00|
+|1	|basic monthly	|538	|53.80|
+|2	|pro monthly	|479	|47.90|
+|4	|churn	|236	|23.60|
+|3	|pro annual	|195	|19.50|
+
+8. How many customers have upgraded to an annual plan in 2020?
+
+```
+with cte as 
+(select customer_id,p.*,start_date 
+from subscriptions s join plans p
+on s.plan_id = p.plan_id)
+select count(distinct customer_id) as customer_count from cte
+where plan_id = 3 and year(start_date) = 2020;
+```
+|customer_count|
+|---|
+|195|
+
+9. How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
+
+```
+```
+
