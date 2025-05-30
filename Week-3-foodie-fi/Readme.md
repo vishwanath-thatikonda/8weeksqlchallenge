@@ -16,13 +16,17 @@ Danny created Foodie-Fi with a data driven mindset and wanted to ensure all futu
 This case study focuses on using subscription style digital data to answer important business questions.\
 <hr>
 
-[Entity Relationship Diagram](https://8weeksqlchallenge.com/images/case-study-3-erd.png)
+## Entity Relationship Diagram
+
+![image](https://github.com/user-attachments/assets/8ae72af8-e75c-4ee3-acea-5fd4d2cdab9e)
+
+**You can get the schema design from here : [Schema Design](https://www.db-fiddle.com/f/rHJhRrXy5hbVBNJ6F6b9gJ/16)**
 
 ## Case Study Questions
 This case study is split into an initial data understanding question before diving straight into data analysis questions before finishing with 1 single extension challenge.
-1. Customer Journey
-2. Data Analysis Questions
-3. Challenge Payment Question
+1. [Customer Journey](https://github.com/vishwanath-thatikonda/8weeksqlchallenge/blob/main/Week-3-foodie-fi/customerjourney.sql)
+2. [Data Analysis Questions](https://github.com/vishwanath-thatikonda/8weeksqlchallenge/blob/main/Week-3-foodie-fi/dataanalysis.sql)
+3. Challenge Payment Question (NA)
 <hr>
 
 ## Case Study Solutions:
